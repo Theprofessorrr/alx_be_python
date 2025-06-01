@@ -1,7 +1,7 @@
 # Prompt for task details
-task = input("Enter the task description: ")
-priority = input("Enter the task's priority (high, medium, low): ").lower()
-time_bound = input("Is the task time-bound? (yes or no): ").lower()
+Task = input("Enter the task description: ")
+Priority = input("Enter the task's priority (high, medium, low): ").lower()
+Time_bound = input("Is the task time-bound? (yes or no): ").lower()
 
 # Process the task using match-case (Python 3.10+)
 match priority:
